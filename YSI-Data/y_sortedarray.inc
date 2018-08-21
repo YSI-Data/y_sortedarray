@@ -85,16 +85,16 @@ Optional plugins:
 	#tryinclude "y_sortedarray\y_sortedarray_entry"
 #endif
 #if !defined _INC_y_sortedarray
-	#tryinclude "YSI_Data\y_sortedarray\y_sortedarray_entry"
+	#tryinclude "YSI-Data\y_sortedarray\y_sortedarray_entry"
 #endif
 #if !defined _INC_y_sortedarray
-	#tryinclude "YSI\YSI_Data\y_sortedarray\y_sortedarray_entry"
+	#tryinclude "YSI\YSI-Data\y_sortedarray\y_sortedarray_entry"
 #endif
 #if !defined _INC_y_sortedarray
-	#tryinclude <YSI_Data\y_sortedarray\y_sortedarray_entry>
+	#tryinclude <YSI-Data\y_sortedarray\y_sortedarray_entry>
 #endif
 #if !defined _INC_y_sortedarray
-	#tryinclude <YSI\YSI_Data\y_sortedarray\y_sortedarray_entry>
+	#tryinclude <YSI\YSI-Data\y_sortedarray\y_sortedarray_entry>
 #endif
 #if !defined _INC_y_sortedarray
 	#error Could not find y_sortedarray
